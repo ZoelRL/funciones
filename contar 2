@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function contar(maximo){
+        let i =1 //iniciar contador en 1
+
+for(; i <=maximo; i++){
+    document.write(i + "<br>");
+}
+}
+//la funcion para contar
+    document.write("<h2>del 1 al 10</h2>");
+    contar(10); //cuenta del 1 al 10
+
+    document.write("<h2>del 1 al 3</h2>");
+    contar(3); //cuenta del 1 al 3
+
+    document.write("<h2>del 1 al88</h2>");
+    contar(88); //cuenta del 1 al 88
+
+    </script>
+    
+</body>
+</html>
